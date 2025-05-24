@@ -1,17 +1,18 @@
 %This work is licensed under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0
 
 \documentclass[12pt]{exam}
-\newcommand{\semanticversion}{v2.0.0}               % Release version
+\newcommand{\semanticversion}{v2.1.0}               % Release version
 \newcommand{\studentone}{Gage Linville}			    % Enter your name
 \title{Diaprepes Root Weevil Texas Quarantine Reference}			    % Title of the project
 \newcommand{\creationdate}{April 11th, 2025}         % Creation date
-\newcommand{\revisiondate}{May 20th, 2025}           % Revision date
+\newcommand{\revisiondate}{May 24th, 2025}           % Revision date
 							
 %-------------------------------------------------------------------------------------
 %  PACKAGES
 %-------------------------------------------------------------------------------------
 \usepackage{graphicx}	
-\usepackage{fourier} %Font file
+\usepackage{fourier} % Font file
+\usepackage{titlesec} % Package that allows for a period to be placed after a section number
 
 %-------------------------------------------------------------------------------------
 %  GRAPHICS PATH
@@ -28,7 +29,7 @@
 % ADDITIONAL COMMANDS
 %-------------------------------------------------------------------------------------
 \renewcommand{\labelenumi}{\alph{enumi})}
-
+\titlelabel{\thetitle.\quad} % Function for executing period after section number
 %-------------------------------------------------------------------------------------
 % TITLE PAGE MACRO
 %-------------------------------------------------------------------------------------
